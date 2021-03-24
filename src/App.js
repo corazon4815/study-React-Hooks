@@ -4,9 +4,12 @@ import Info from './Info';
 import ContextSample from './ContextSample';
 import Average from './Average';
 import TextInputWithFocusButton from './TextInputWithFocusButton';
+import RefSample from './RefSample';
+import UsePromiseSample from './UsePromiseSample';
+import GuGuDan from './GuGuDan';
 
 const App = () => {
-  return <TextInputWithFocusButton />; 
+  return <GuGuDan />; 
   
 };
 

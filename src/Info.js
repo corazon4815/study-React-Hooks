@@ -8,6 +8,7 @@ function reducer(state, action) {
   };
 }
 
+
 const Info = () => {
   const [{ name, nickname }, dispatch] = useReducer(reducer, {
     name: '',
